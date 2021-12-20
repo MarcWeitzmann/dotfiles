@@ -50,5 +50,8 @@
 [pull]
   rebase = false
 [user]
-	email = marc@lets-talk-hospitality.com
+	email = marc@weitzmann.org
 	name = Marc Weitzmann
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
